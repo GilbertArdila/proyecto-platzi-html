@@ -93,41 +93,6 @@ body{
     margin-bottom: 30px;
 }
 
-@media (max-width:640px){
-   .logo{
-       display: block;
-   }
-   .secondary-button{
-    position: relative;
-      top: 61px;
-   }
-   .form{
-      
-       position: absolute;
-       top:86px;
-       height: 350px;
-       left: 21px;
-       
-      }
-      .password-tittle{
-          position: relative;
-          top:14px;
-          left:21px
-      }
-      .form-button{
-          position: relative;
-          bottom: -259px;
-      }
-      .edit-button{
-        position: relative;
-        bottom: -179px;
-    }
-     
-      
-    
-  
- 
-}
 /*Estilos para la página sendEmail*/
 .email-image{
     
@@ -200,4 +165,42 @@ estilos para el editAccount*/
     font-size: var(--md);
     margin: 8px 0 32px 0;
 }
+
+/*este media query tiene los estilos para todas
+las páginas*/
+@media (max-width:640px){
+    .logo{
+        display: block;
+    }
+    .secondary-button{
+     position: relative;
+       top: 61px;
+    }
+    .form{
+       
+        position: absolute;
+        top:86px;
+        height: 350px;
+        left: 21px;
+        
+       }
+       .password-tittle{
+           position: relative;
+           top:14px;
+           left:21px
+       }
+       .form-button{
+           position: relative;
+           bottom: -259px;
+       }
+       .edit-button{
+         position: relative;
+         bottom: -179px;
+     }
+      
+       
+     
+   
+  
+ }
 
