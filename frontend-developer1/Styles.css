@@ -97,6 +97,30 @@ body{
    .logo{
        display: block;
    }
+   .secondary-button{
+    position: relative;
+      top: 61px;
+   }
+   .form{
+      
+       position: absolute;
+       top:86px;
+       height: 350px;
+       left: 21px;
+       
+      }
+      .password-tittle{
+          position: relative;
+          top:14px;
+          left:21px
+      }
+      .form-button{
+          position: relative;
+          bottom: -273px;
+      }
+    
+  
+ 
 }
 /*Estilos para la página sendEmail*/
 .email-image{
@@ -126,3 +150,41 @@ body{
     text-decoration: none;
 
 }
+/*Estilos para la página loging*/
+.form a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.input-email{
+    margin-bottom: 22px;
+}
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+
+}
+/*estilos para el acount.html*/
+.password-tittle{
+    margin-bottom: 30px;
+    text-align: start;
+}
+.input-name,
+.input-email,
+.input-password
+{
+    margin-bottom: 22px;
+}
+.form-button{
+    height: auto;
+}
+
