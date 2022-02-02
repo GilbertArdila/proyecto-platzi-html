@@ -116,8 +116,14 @@ body{
       }
       .form-button{
           position: relative;
-          bottom: -273px;
+          bottom: -259px;
       }
+      .edit-button{
+        position: relative;
+        bottom: -179px;
+    }
+     
+      
     
   
  
@@ -186,5 +192,12 @@ body{
 }
 .form-button{
     height: auto;
+}
+/*
+estilos para el editAccount*/
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
 }
 
