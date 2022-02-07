@@ -17,28 +17,32 @@ body{
 }
 .order{
     display: flex;
+    flex-direction: column;
     place-content: center;
+    align-items: center;
+   
     
 }
 .info-order{
+   
     position: relative;
-    left: 150px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    height: 150px;
+    margin: 0 auto;
+    left:-300px;
+   
+   
 }
 .tittle{
     font-size: var(--md);
     font-weight: bold;
-    margin: 40px 0 40px 0;
+    margin-top:80px;
+    margin-bottom:60px;
 
 }
 .info{
-    border-radius: 8px;
-    width: 580px;
-    height: 77px;
-    background-color: #ECECEC;
-    padding: 2px 5px 2px 10px;
+   
+    width: 100%;
+    height: auto;
+    
 
 }
 .info p:first-child{
@@ -56,39 +60,21 @@ body{
     position: relative;
     font-size: var(--sm);
     font-weight: bold;
-    left: 486px;
+    left: 300px;
     top: -50px;
     width: 80px;
     margin: 15px 0 0 0;
 }
+.info img{
+    position: relative;
+   left: 450px;
+   top:-70px
+}
 
-.articulos{
-    position: relative;
-    margin-top: 250px;
-    left: -436px;
-    place-content: center;
-    grid-template-columns: repeat(auto-fill,240px);
-    gap: 26px;
-}
-.imagenes{
-    display: grid;
-    grid-template-columns: auto 1fr auto auto;
-    gap: 16px;
-    margin-bottom: 20px;
-}
-.imagenes img{
-    margin: 0;
-    width: 240px;
-    border-radius: 20px;
-}
-.imagenes .descripción{
-    position: relative;
-    left: 12px;
-    width: 122px;
-}
-.imagenes .precio{
-    position: relative;
-    left: 132px;
+@media (max-width: 760px){
+ .info-order{
+     left: -200px;
+ }
 }
 @media (max-width: 640px){
     .order{
@@ -102,10 +88,11 @@ body{
     .info{
         margin-top: 80px;
     }
-    .imagenes{
-        margin-bottom: 30px;
-    }
-    .imagenes img{
-         width: 140px;
+   
+}
+@media (max-width:425px){
+
+    .info-order{
+        left: -178px;
     }
 }
